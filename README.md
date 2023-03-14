@@ -1,6 +1,8 @@
 # **\*\*\*\***\*\*\***\*\*\*\***
 
-# About this project: what is does? It handles user authentication, validation, and creation. And for every account made, creates a lead in a Monday.com board. It can eaisly plug into any front end form you make by passing simply {first_name: "", last_name: "", email: ""} at a minimum. I also set up some demo apps and a celery beat scheduler. Very customizable. 
+# About this project: 
+
+- what is does? It handles user authentication, validation, and creation. And for every account made, creates a lead in a Monday.com board. It can eaisly plug into any front end form you make by passing simply {first_name: "", last_name: "", email: ""} at a minimum. I also set up some demo apps and a celery beat scheduler. Very customizable. 
 
 
 - I made this repository public because it doesnt contain sensitive information, and is a good baseline for bnuisiness level software.
