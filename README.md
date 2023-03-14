@@ -6,7 +6,7 @@
 
 
 - I made this repository public because it doesnt contain sensitive information, and is a good baseline for bnuisiness level software.
-- If you want to use it feel free to clone it and buil up on it. But here are some things you should know
+- If you want to use it feel free to clone it and build up on it. But here are some things you should know
 
   1: If you want to start this project you should be familiar with the django-reest-framework and Celery at least
   2: Right now there are some bugs from stripping out all sensitiver information. So dont expect to open this up very easily right now.
