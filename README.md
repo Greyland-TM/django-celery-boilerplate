@@ -1,5 +1,16 @@
 # **\*\*\*\***\*\*\***\*\*\*\***
 
+# About this project: what is does? It handles user authentication, validation, and creation. And for every account made, creates a lead in a Monday.com board. It can eaisly plug into any front end form you make by passing simply {first_name: "", last_name: "", email: ""} at a minimum. I also set up some demo apps and a celery beat scheduler. Very customizable. 
+
+
+- I made this repository public because it doesnt contain sensitive information, and is a good baseline for bnuisiness level software.
+- If you want to use it feel free to clone it and buil up on it. But here are some things you should know
+
+  1: If you want to start this project you should be familiar with the django-reest-framework and Celery at least
+  2: Right now there are some bugs from stripping out all sensitiver information. So dont expect to open this up very easily right now.
+  3: I do try and keep this up to date with patches of my own, but if you want to make any changes feel free to submit a pr into the dev branch
+
+
 # Starting The Project
 
 - First you need to open the projects vertual environment and install the dependencies
@@ -107,20 +118,7 @@ DB_PORT=5432
 
 SECRET_KEY=
 
-# OpenAI
-
-OPENAI_API_KEY=
-
-#Celery
-RABBITMQ_USERNAME=
-RABBITMQ_PASSWORD=
-
 # Monday
 
 MONDAY_API_KEY=
 
-# app_1 - TEST ACCOUNT
-
-app_1_ENDPOINT=https://api.app_1.co
-app_1_USERNAME=b6fbc16215
-app_1_PASSWORD=euz5kfHEDSb7
